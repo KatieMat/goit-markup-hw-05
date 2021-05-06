@@ -259,17 +259,21 @@ nav,
   background-color: #FFFFFF;
 }
 .close{
+  padding: 0;
   position: absolute;
   top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #ffffff;
   border-radius: 50%;
-  background-image: url('../images/close.svg');
-  background-repeat: no-repeat;
-  background-position: center;
+  box-sizing: border-box;
+}
+
+.close-icon{
+ /* outline: 1px solid tomato; */
 }
 
 .backdrop.is-hidden{
